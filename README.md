@@ -52,6 +52,6 @@ To run the tests, follow these steps:
     npm test
     ```
 
-### Documentation
+## Documentation
 
 This project uses puppeteer to run the tests. You can find the documentation [here](https://pptr.dev/).
