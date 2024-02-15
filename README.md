@@ -25,7 +25,7 @@ To install the project, follow these steps:
 
 1. Clone the repository:
     ```shell
-    git clone
+    git clone git@github.com:brissboss/fonctional_test.git
     ```
 
 2. Install the dependencies:
@@ -37,7 +37,7 @@ To install the project, follow these steps:
 
 To run the tests, follow these steps:
 
-1. Open .env file and set the following variables:
+1. Create .env file and set the following variables:
     ```shell
     CHROMIUM_PATH=/path/to/chromium
     WEBSITE_URL=https://www.the-website-to-test.com
@@ -51,3 +51,7 @@ To run the tests, follow these steps:
     ```shell
     npm test
     ```
+
+### Documentation
+
+This project uses puppeteer to run the tests. You can find the documentation [here](https://pptr.dev/).
